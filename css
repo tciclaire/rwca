@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'madisonsquareincised';
+    src: url('madisonsquare_incised_macroman/MADISI__-webfont.eot');
+    src: url('madisonsquare_incised_macroman/MADISI__-webfont.eot?#iefix') format('embedded-opentype'),
+         url('madisonsquare_incised_macroman/MADISI__-webfont.woff2') format('woff2'),
+         url('madisonsquare_incised_macroman/MADISI__-webfont.woff') format('woff'),
+         url('madisonsquare_incised_macroman/MADISI__-webfont.ttf') format('truetype'),
+         url('madisonsquare_incised_macroman/MADISI__-webfont.svg#madisonsquareincised') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+  background-color: blue;
+    margin: -20px;
+    padding: 10px;
+    height: 91px;
+    width: 1600px;
+    width: 1600;
+}
+
+.h1
+{
+  margin-left: 250px;
+}
+
+.baniere1
+{
+    font-family: 'madisonsquareincised';
+    color: white;
+    text-align:left;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.baniere2
+{
+    color: white;
+    font-style: italic;
+    text-align:left;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.baniere3
+{
+  color: white;
+  font-family: 'madisonsquareincised';
+  text-align:left;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bolder;
+  margin-left: 600px;
+}
+
+body {margin: 0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(143, 136, 136);
+  width: 1610px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  background-color:black;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.subnav:hover .subnavbtn {
+  color: black;
+}
+
+.navbar a:hover{
+  background-color: red;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+  box-shadow: 5px 5px 5px black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+img {
+	width: 20px;
+	height: 15px;
+}
+
+.img1
+{
+  position:absolute; top:138px; left:0px;
+  width: 1600px;
+  height: 650px;
+
+}
+
+@media screen and (max-width: 400px) {
+  ul.topnav li.right,
+  ul.topnav li {float: inline-start;}
+}
